@@ -19,10 +19,10 @@ public class Main {
             String stringSwitch = reader.readLine();
 
             switch (stringSwitch) {
-                case ("1") -> System.out.println("зашифровать");
-                case ("2") -> System.out.println("расшифровать");
-                case ("3") -> System.out.println("подобрать ключ к зашифрованному файлу методом Bruteforce");
-                case ("4") -> System.out.println("засшифровать текст в файле методом статистического перебора");
+                case ("1") -> ChoiceOne.choiceOne();
+                case ("2") -> ChoiceTwo.choiceTwo();
+                case ("3") -> ChoiceThree.choiceThree();
+                case ("4") -> ChoiceFour.choiceFour();
             }
             if (stringSwitch.equalsIgnoreCase("Exit")) {
                 break;
