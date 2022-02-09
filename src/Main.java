@@ -9,7 +9,7 @@ public class Main {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         while (true) {
 
-            System.out.println(" \n Приветсвую тебя мой друг, выбери действие: \n" +
+            System.out.println("\nПриветсвую тебя мой друг, выбери действие: \n" +
                     "1 - зашировать \n" +
                     "2 - расшифровать \n" +
                     "3 - подобрать ключ к зашифрованному файлу методом Bruteforce \n" +
