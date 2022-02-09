@@ -1,7 +1,9 @@
 public class CeaserCliper {
 
-    private static final String ALPHABET = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ" + "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
+    private static final String ALPHABET_PART_ONE = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
+    private static final String ALPHABET_PART_TWO = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
 
+    private static final String ALPHABET = ALPHABET_PART_ONE + ALPHABET_PART_TWO;
 
     public String encrypted(String message, int key) { // кеу = 3.
 
