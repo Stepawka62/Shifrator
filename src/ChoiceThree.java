@@ -34,7 +34,7 @@ public class ChoiceThree {
                String deEncrypted =  ceaserCliper.deEncrypted(stringBuilder.toString(), i);
                if(isValidText(deEncrypted)) {
                    bufferedWriter.write(deEncrypted);
-                   System.out.println("Содержимое файла расшифровано методом беребора ключей.K" + i);
+                   System.out.println("Содержимое файла расшифровано методом перебора ключей.K = " + i);
                    break;
                }
             }
